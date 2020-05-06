@@ -30,7 +30,7 @@
 		D8301AC20EC9CA14FF590633419615B9 /* PSWebSocketInflater.h in Headers */ = {isa = PBXBuildFile; fileRef = 69589907591A333922DFAC94C58209D5 /* PSWebSocketInflater.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D9DC6B4F2EAB04390F1DDA39493FABC7 /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF18479117B47AB181C8ED8FB376561 /* PSWebSocketInflater.m */; };
 		E8D865A3A2240822AF57796AF3BEEC09 /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9823F02076F6E36C8F9E7B4D37CB885E /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE3D6A747A899D19CB6317C3EC0EF73C /* Pods-pocketEOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketEOS-dummy.m */; };
+		EE3D6A747A899D19CB6317C3EC0EF73C /* Pods-pocketRIX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketRIX-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,35 +48,35 @@
 		14C9BC29042D6FB71D2B0707A889C528 /* PSWebSocketUTF8Decoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketUTF8Decoder.m; path = PocketSocket/PSWebSocketUTF8Decoder.m; sourceTree = "<group>"; };
 		19791783BB9D6EBB7F3743005C8AE65C /* PSWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocket.h; path = PocketSocket/PSWebSocket.h; sourceTree = "<group>"; };
 		1B50845C43D253F802B8F7540E129430 /* PocketSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PocketSocket-prefix.pch"; sourceTree = "<group>"; };
-		2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketEOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketEOS.release.xcconfig"; sourceTree = "<group>"; };
+		2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketRIX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketRIX.release.xcconfig"; sourceTree = "<group>"; };
 		2C06C3A2209A665769A3E6E2333EEE5C /* PSWebSocketDeflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDeflater.m; path = PocketSocket/PSWebSocketDeflater.m; sourceTree = "<group>"; };
 		3B84B615993B00EBF05BACCD92E24A09 /* PSWebSocketDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDriver.h; path = PocketSocket/PSWebSocketDriver.h; sourceTree = "<group>"; };
 		43FCFB4D2FB50981A3309ADEE93397BA /* PSWebSocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketServer.h; path = PocketSocket/PSWebSocketServer.h; sourceTree = "<group>"; };
 		443EC54454CDC07220FA7834CD60A62F /* PSWebSocketServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketServer.m; path = PocketSocket/PSWebSocketServer.m; sourceTree = "<group>"; };
-		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhonRIX.platform/Developer/SDKs/iPhonRIX10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		537C5975D39F0C501E15700AA15634DD /* libPocketSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPocketSocket.a; path = libPocketSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E8A5BB52C0B4AB2F9D8C0B4E0D2B1A /* PSWebSocketBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketBuffer.h; path = PocketSocket/PSWebSocketBuffer.h; sourceTree = "<group>"; };
 		5710F89CAB63F5ADFAA2E4D4410FCE90 /* PocketSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PocketSocket.xcconfig; sourceTree = "<group>"; };
 		69589907591A333922DFAC94C58209D5 /* PSWebSocketInflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInflater.h; path = PocketSocket/PSWebSocketInflater.h; sourceTree = "<group>"; };
 		72BEB21D04CB15A4298CA92162DBB531 /* PocketSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PocketSocket-dummy.m"; sourceTree = "<group>"; };
-		74DAC11DE86F3CA4CA63B6E7CEA6BA75 /* Pods-pocketEOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocketEOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74DAC11DE86F3CA4CA63B6E7CEA6BA75 /* Pods-pocketRIX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocketRIX-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75D30256D278608B1BD41A5A2DD43517 /* PSWebSocketBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketBuffer.m; path = PocketSocket/PSWebSocketBuffer.m; sourceTree = "<group>"; };
 		76C5A9D018E7D5D7D06293568716CAF4 /* PSWebSocketDriver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketDriver.m; path = PocketSocket/PSWebSocketDriver.m; sourceTree = "<group>"; };
-		7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketEOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pocketEOS.a"; path = "libPods-pocketEOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		803315F9F570978FB80887FC31AE2136 /* Pods-pocketEOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketEOS-resources.sh"; sourceTree = "<group>"; };
-		89793AB0768528A04D44D497666CB147 /* Pods-pocketEOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocketEOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketRIX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pocketRIX.a"; path = "libPods-pocketRIX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		803315F9F570978FB80887FC31AE2136 /* Pods-pocketRIX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketRIX-resources.sh"; sourceTree = "<group>"; };
+		89793AB0768528A04D44D497666CB147 /* Pods-pocketRIX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocketRIX-acknowledgements.plist"; sourceTree = "<group>"; };
 		8989EAE972D1326B3C3408B0AE855D70 /* PSWebSocketNetworkThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketNetworkThread.h; path = PocketSocket/PSWebSocketNetworkThread.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9823F02076F6E36C8F9E7B4D37CB885E /* PSWebSocketTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketTypes.h; path = PocketSocket/PSWebSocketTypes.h; sourceTree = "<group>"; };
-		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhonRIX.platform/Developer/SDKs/iPhonRIX10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A5C920AE4A934B58EE42AED49EADE8D7 /* PSWebSocketDeflater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketDeflater.h; path = PocketSocket/PSWebSocketDeflater.h; sourceTree = "<group>"; };
-		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhonRIX.platform/Developer/SDKs/iPhonRIX10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		AA248DA959D08673B9C79D17DD22208A /* PSWebSocketNetworkThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketNetworkThread.m; path = PocketSocket/PSWebSocketNetworkThread.m; sourceTree = "<group>"; };
-		B881F45B2216A81B9A2E2BC6F9989D2C /* Pods-pocketEOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketEOS-frameworks.sh"; sourceTree = "<group>"; };
-		D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketEOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketEOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B881F45B2216A81B9A2E2BC6F9989D2C /* Pods-pocketRIX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocketRIX-frameworks.sh"; sourceTree = "<group>"; };
+		D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketRIX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocketRIX.debug.xcconfig"; sourceTree = "<group>"; };
 		D3DD1D3844A500CE333EC16C7C3C3ECC /* PSWebSocketInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWebSocketInternal.h; path = PocketSocket/PSWebSocketInternal.h; sourceTree = "<group>"; };
 		DEF18479117B47AB181C8ED8FB376561 /* PSWebSocketInflater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocketInflater.m; path = PocketSocket/PSWebSocketInflater.m; sourceTree = "<group>"; };
-		E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketEOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocketEOS-dummy.m"; sourceTree = "<group>"; };
+		E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketRIX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocketRIX-dummy.m"; sourceTree = "<group>"; };
 		FFE6B6EA0FBC86CA6743E25354F18893 /* PSWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWebSocket.m; path = PocketSocket/PSWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				537C5975D39F0C501E15700AA15634DD /* libPocketSocket.a */,
-				7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketEOS.a */,
+				7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketRIX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,19 +192,19 @@
 			name = Client;
 			sourceTree = "<group>";
 		};
-		B30AE5B8700DBC8F98BA49674E4278D6 /* Pods-pocketEOS */ = {
+		B30AE5B8700DBC8F98BA49674E4278D6 /* Pods-pocketRIX */ = {
 			isa = PBXGroup;
 			children = (
-				74DAC11DE86F3CA4CA63B6E7CEA6BA75 /* Pods-pocketEOS-acknowledgements.markdown */,
-				89793AB0768528A04D44D497666CB147 /* Pods-pocketEOS-acknowledgements.plist */,
-				E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketEOS-dummy.m */,
-				B881F45B2216A81B9A2E2BC6F9989D2C /* Pods-pocketEOS-frameworks.sh */,
-				803315F9F570978FB80887FC31AE2136 /* Pods-pocketEOS-resources.sh */,
-				D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketEOS.debug.xcconfig */,
-				2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketEOS.release.xcconfig */,
+				74DAC11DE86F3CA4CA63B6E7CEA6BA75 /* Pods-pocketRIX-acknowledgements.markdown */,
+				89793AB0768528A04D44D497666CB147 /* Pods-pocketRIX-acknowledgements.plist */,
+				E3288A24C16C1B41CEEE231A813183D5 /* Pods-pocketRIX-dummy.m */,
+				B881F45B2216A81B9A2E2BC6F9989D2C /* Pods-pocketRIX-frameworks.sh */,
+				803315F9F570978FB80887FC31AE2136 /* Pods-pocketRIX-resources.sh */,
+				D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketRIX.debug.xcconfig */,
+				2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketRIX.release.xcconfig */,
 			);
-			name = "Pods-pocketEOS";
-			path = "Target Support Files/Pods-pocketEOS";
+			name = "Pods-pocketRIX";
+			path = "Target Support Files/Pods-pocketRIX";
 			sourceTree = "<group>";
 		};
 		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
@@ -228,7 +228,7 @@
 		E3AF5B7BE269CC8CC7CE3CDCFC71C36F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B30AE5B8700DBC8F98BA49674E4278D6 /* Pods-pocketEOS */,
+				B30AE5B8700DBC8F98BA49674E4278D6 /* Pods-pocketRIX */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -273,9 +273,9 @@
 			productReference = 537C5975D39F0C501E15700AA15634DD /* libPocketSocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		65B4F725691E0871F880E507C67B5069 /* Pods-pocketEOS */ = {
+		65B4F725691E0871F880E507C67B5069 /* Pods-pocketRIX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1449BA13D5E9A8076CCA94EA26E59BBF /* Build configuration list for PBXNativeTarget "Pods-pocketEOS" */;
+			buildConfigurationList = 1449BA13D5E9A8076CCA94EA26E59BBF /* Build configuration list for PBXNativeTarget "Pods-pocketRIX" */;
 			buildPhases = (
 				EE5DAB05A7D4F7781A39DFC84C16BF65 /* Sources */,
 				04F18ABD64636C1D324ACF8E1C4F5749 /* Frameworks */,
@@ -285,9 +285,9 @@
 			dependencies = (
 				0241CBEB4E1A76BE508E4E4383756DF6 /* PBXTargetDependency */,
 			);
-			name = "Pods-pocketEOS";
-			productName = "Pods-pocketEOS";
-			productReference = 7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketEOS.a */;
+			name = "Pods-pocketRIX";
+			productName = "Pods-pocketRIX";
+			productReference = 7F63472E3041CDE9B280DBAF3D750F0C /* libPods-pocketRIX.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +312,7 @@
 			projectRoot = "";
 			targets = (
 				0B3F726381E57B5D63D9BA6C36E1EC0C /* PocketSocket */,
-				65B4F725691E0871F880E507C67B5069 /* Pods-pocketEOS */,
+				65B4F725691E0871F880E507C67B5069 /* Pods-pocketRIX */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3D6A747A899D19CB6317C3EC0EF73C /* Pods-pocketEOS-dummy.m in Sources */,
+				EE3D6A747A899D19CB6317C3EC0EF73C /* Pods-pocketRIX-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,17 +360,17 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphonRIX*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/PocketSocket/PocketSocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = PocketSocket;
 				PRODUCT_NAME = PocketSocket;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphonRIX;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,20 +380,20 @@
 		};
 		107989D27A287C1DBC0E94741B603DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketEOS.debug.xcconfig */;
+			baseConfigurationReference = D35C9FED1983EDE9F01220D3F39E9A96 /* Pods-pocketRIX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphonRIX*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
+				SDKROOT = iphonRIX;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,17 +405,17 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphonRIX*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/PocketSocket/PocketSocket-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = PocketSocket;
 				PRODUCT_NAME = PocketSocket;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
+				SDKROOT = iphonRIX;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,20 +487,20 @@
 		};
 		E257432E90D401D95E730C05D7590284 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketEOS.release.xcconfig */;
+			baseConfigurationReference = 2ABE33C0CADA16F84D0C050174AE2683 /* Pods-pocketRIX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphonRIX*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
+				SDKROOT = iphonRIX;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -557,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONRIX_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -568,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1449BA13D5E9A8076CCA94EA26E59BBF /* Build configuration list for PBXNativeTarget "Pods-pocketEOS" */ = {
+		1449BA13D5E9A8076CCA94EA26E59BBF /* Build configuration list for PBXNativeTarget "Pods-pocketRIX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				107989D27A287C1DBC0E94741B603DCD /* Debug */,

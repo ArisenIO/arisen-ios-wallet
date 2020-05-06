@@ -312,7 +312,7 @@ typedef enum
 #pragma mark TencentVideoMessage
 
 /**
- * TencentApiVideoSourceType 视频数据类型（请求方对数据类型可能会有限制）
+ * TencentApiVidRIXourceType 视频数据类型（请求方对数据类型可能会有限制）
  */
 
 typedef enum
@@ -323,7 +323,7 @@ typedef enum
     LocalVideo,
     /** 视频来源于网络 */
     NetVideo,
-}TencentApiVideoSourceType;
+}TencentApiVidRIXourceType;
 
 /**
  * \brief 视频的消息体
@@ -340,7 +340,7 @@ typedef enum
 
 /** 
  * 视频来源 主要是用来让发起方指定视频的来源
- * \note TencentApiVideoSourceType 对应的类型 只读参数
+ * \note TencentApiVidRIXourceType 对应的类型 只读参数
  */
 @property (readonly, assign, nonatomic)  NSInteger nType;
 
@@ -362,7 +362,7 @@ typedef enum
  * \param type 视频来源类型
  * \return 初始化返回的视频消息
  */
-- (id)initWithVideoUrl:(NSString *)url type:(TencentApiVideoSourceType)type;
+- (id)initWithVideoUrl:(NSString *)url type:(TencentApiVidRIXourceType)type;
 
 
 /**
@@ -370,7 +370,7 @@ typedef enum
  * \param type 视频来源类型
  * \return 初始化返回的视频消息
  */
-- (id)initWithType:(TencentApiVideoSourceType)type;
+- (id)initWithType:(TencentApiVidRIXourceType)type;
 @end
 
 #pragma mark TencentImageMessageObj

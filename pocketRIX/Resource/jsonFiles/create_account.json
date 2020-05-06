@@ -1,0 +1,62 @@
+{
+  "type": "actions_QRCode",
+  "actions": [{
+      "account": "arisen",
+      "name": "newaccount",
+      "authorization": [{
+        "actor": "arisen",
+        "permission": "active"
+      }],
+      "data": {
+        "active": {
+          "accounts": [],
+          "keys": [{
+            "key": "RSN71JQbZbcyN1C7SMu7mJcjSaMSWvfzUPHHPHR58QSybq5Y2ybbE",
+            "weight": 1
+          }],
+          "threshold": 1,
+          "waits": []
+        },
+        "creator": "arisen",
+        "name": "feishen11111",
+        "owner": {
+          "accounts": [],
+          "keys": [{
+            "key": "RSN7JatpyTJ9FMtBvDGUxDZVY4qA8PEvBpt7ZP5QCjvMvV66BhVS2",
+            "weight": 1
+          }],
+          "threshold": 1,
+          "waits": []
+        }
+      }
+    },
+    {
+      "account": "arisen",
+      "name": "delegatebw",
+      "authorization": [{
+        "actor": "arisen",
+        "permission": "active"
+      }],
+      "data": {
+        "from": "arisen",
+        "receiver": "feishen11111",
+        "stake_cpu_quantity": "1.0000 RIX",
+        "stake_net_quantity": "2.0000 RIX",
+        "transfer": 0
+      }
+    },
+    {
+      "account": "arisen",
+      "name": "buyram",
+      "authorization": [{
+        "actor": "arisen",
+        "permission": "active"
+      }],
+     "data": {
+        "payer": "arisen",
+        "quant": "3.0000 RIX",
+        "receiver": "feishen11111"
+     }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+//
+//  GetWalletAccountsRequest.m
+//  pocketRIX
+//
+//  Created by oraclechain on 2018/1/31.
+//  Copyright © 2018年 oraclechain. All rights reserved.
+//
+
+#import "GetWalletAccountsRequest.h"
+
+@implementation GetWalletAccountsRequest
+
+-(NSString *)requestUrlPath{
+    return [NSString stringWithFormat:@"%@/user/getRIXAccount", REQUEST_PERSONAL_BASEURL ];
+}
+
+-(id)parameters{
+    return @{@"uid" : VALIDATE_STRING(self.uid),
+             @"fuid" : VALIDATE_STRING(self.fuid)
+             };
+}
+@end
